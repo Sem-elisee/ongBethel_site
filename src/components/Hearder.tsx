@@ -65,17 +65,17 @@ export default function Hearder() {
           >
             <button
               onClick={() => setOpen(!open)}
-              className="absolute top-0 right-0 px-3 py-3 text-gray-600 hover:text-gray-800 focus:outline-none"
+              className=" relative py-4 left-[17rem] p-1 text-gray-600 hover:text-gray-800 focus:outline-none"
             >
               {open ? (
-                <div className="text-white bg-[#000] p-2 rounded-full cursor-pointer ">
-                  <X className="cursor-pointer " />
+                <div onClick={() => setOpen(false)} className="">
+                  <X className="cursor-pointer bg-black rounded-full w-8 h-8 p-1 text-white " />
                 </div>
               ) : (
                 ""
               )}
             </button>
-            <div className="px-4 py-2">
+            <div className="px-4 py-0">
               <div className="flex flex-col h-screen justify-center items-center relative top-[-2rem]">
                 <div className=" flex-col flex gap-8 text-center">
                   <Link

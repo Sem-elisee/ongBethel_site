@@ -24,7 +24,7 @@ export default function Main() {
             </h1>
           </div>
           <div className=" sm:my-10 min-[320px]:flex min-[320px]:gap-3  min-[320px]:my-4  ">
-            <Link to="/projet">
+            <Link to="/a_propos">
               <button className=" lg:px-7 min-[500px]:py-3 min-[320px]:px-2 min-[400px]:px-3 min-[320px]:py-2 bg-white font-semibold">
                 Plus D'information
               </button>
