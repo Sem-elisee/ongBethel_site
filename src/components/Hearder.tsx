@@ -68,7 +68,7 @@ export default function Hearder() {
               className="absolute top-0 right-0 px-3 py-3 text-gray-600 hover:text-gray-800 focus:outline-none"
             >
               {open ? (
-                <div className="text-white bg-[#000] p-2 rounded-md cursor-pointer ">
+                <div className="text-white bg-[#000] p-2 rounded-full cursor-pointer ">
                   <X className="cursor-pointer " />
                 </div>
               ) : (
@@ -76,10 +76,6 @@ export default function Hearder() {
               )}
             </button>
             <div className="px-4 py-2">
-              <div
-                className="w-[1.30rem] h-[2.70rem] bg-[#000] "
-                style={{ borderRadius: "0px 30px 30px 0px" }}
-              />
               <div className="flex flex-col h-screen justify-center items-center relative top-[-2rem]">
                 <div className=" flex-col flex gap-8 text-center">
                   <Link
