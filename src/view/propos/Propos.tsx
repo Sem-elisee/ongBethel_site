@@ -19,9 +19,9 @@ export default function Projet() {
         <Hearder />
         <div className=" ">
           <div
-            className="bg-center object-cover h-[530px] w-full text-center bg-cover bg-repeat"
+            className="bg-center object-cover h-[550px] w-full text-center bg-cover bg-repeat"
             style={{
-              background: "url('/zz.jpg') ",
+              background: "url('/img1.jpeg') ",
             }}
           >
             <div className="relative top-28">

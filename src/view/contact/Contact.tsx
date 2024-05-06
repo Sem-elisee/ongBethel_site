@@ -18,7 +18,7 @@ export default function Contact() {
       <div
         className="bg-center h-[530px] w-full text-center bg-cover bg-repeat"
         style={{
-          background: "url('/zz.jpg') ",
+          background: "url('/jj.jpg') ",
         }}
       >
         <div className="relative top-28">
