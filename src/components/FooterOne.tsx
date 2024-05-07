@@ -40,8 +40,8 @@ export default function FooterOne() {
               <Link to="/">
                 <h3 className=" text-white ">Accueil</h3>
               </Link>
-              <Link to="/projet">
-                <h3 className=" text-white my-2">Projet</h3>
+              <Link to="/a_propos">
+                <h3 className=" text-white my-2">A propos</h3>
               </Link>
               <Link to="/actualites">
                 <h3 className=" text-white my-2">Actualités</h3>
